@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trig Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="flex-container">
+        <section class="quiz-box">
+            <div class="question-header">
+                <h2>Trig Identities Quiz</h2>
+                <h1 id="question"></h1>
+            </div>
+            <div class="option-group">
+                <button class="option" id="option1" type="button" onclick="buttonPress(0, 'option1')"></button>
+                <button class="option" id="option2" type="button" onclick="buttonPress(1, 'option2')"></button>
+                <button class="option" id="option3" type="button" onclick="buttonPress(2, 'option3')"></button>
+            </div>
+        </section>
+        <section>
+            <div class="score-box">
+                <h2>Your Score:</h2>
+                <h1 id="score"></h1>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
